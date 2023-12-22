@@ -15,7 +15,7 @@ contract OwnerUpOnly {
     }
 
     function increment() external {
-       // console.log(owner);
+        //console.log(owner);
        // console.log(msg.sender);
        // console.log(tx.origin);
         if(msg.sender != owner){
