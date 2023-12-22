@@ -8,3 +8,15 @@
 Fuzzing or fuzz testing is a dynamic testing technique that is based on the idea of feeding random data to a program in an attempt to break it [Science Direct](https://www.sciencedirect.com/topics/computer-science/fuzzing) 
 
 # is Expected result == Actual result?
+
+An invariant is a value or condition that is expected to be consistent during the execution of a process. [Technopedia](https://www.techopedia.com/definition/20135/invariant#:~:text=An%20invariant%20is%20a%20value,the%20integrity%20of%20computer%20programs.). When it comes to Fuzz testing, we are concerned about the integrity of our invariant. Invariant in the world of smart contracts could be:
+1. Only possible to elect just a winner in a voting process.
+2. A storage variable should return expected value
+Fuzz testing is basically an invariant testing.
+# Practical example
+check out: https://github.com/stevegee1/FOUNDRY_COVEN/tree/main/GettingStarted/What_is_FUZZ_testing/src
+
+# Up Next
+1. Types of Fuzz testing
+2. Explaining each fuzz parameter in the configuration file, foundry.toml
+
