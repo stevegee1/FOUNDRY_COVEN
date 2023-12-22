@@ -7,3 +7,6 @@
 [submodule "GettingStarted/hi_foundry/lib/forge-std"]
 	path = GettingStarted/hi_foundry/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "GettingStarted/What_is_FUZZ_testing/lib/forge-std"]
+	path = GettingStarted/What_is_FUZZ_testing/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
