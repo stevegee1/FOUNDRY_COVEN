@@ -17,7 +17,7 @@ contract fuzzyTest is Test{
      * if we manually select random value , we might skip value:227.
      * Hence, we assume the smart contract is fine
      */
-    function test_randomDataIs227() public {
+    function test_manuallySelectedData() public {
         assertEq(fuzzyInstance.checkOut(4),1 );
     }
     /**

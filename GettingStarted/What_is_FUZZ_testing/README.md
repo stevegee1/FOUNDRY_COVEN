@@ -14,7 +14,9 @@ An invariant is a value or condition that is expected to be consistent during th
 2. A storage variable should return expected value
 Fuzz testing is basically an invariant testing.
 # Practical example
-check out: https://github.com/stevegee1/FOUNDRY_COVEN/tree/main/GettingStarted/What_is_FUZZ_testing/src
+1. check out: https://github.com/stevegee1/FOUNDRY_COVEN/tree/main/GettingStarted/What_is_FUZZ_testing/src
+2. Check out: https://github.com/stevegee1/FOUNDRY_COVEN/tree/main/GettingStarted/What_is_FUZZ_testing/test
+
 
 # Up Next
 1. Types of Fuzz testing
